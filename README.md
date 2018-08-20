@@ -87,6 +87,7 @@ chmod +x make_dirs.sh
 alsamixer
 
 # Install picam binary
+#The link below needs to include OS stretch/jessie per file names found @ https://github.com/iizukanao/picam/releases/tag/v1.4.6
 wget https://github.com/iizukanao/picam/releases/download/v1.4.6/picam-1.4.6-binary.tar.xz
 tar xvf picam-1.4.6-binary.tar.xz
 cp picam-1.4.6-binary/picam ~/picam/
